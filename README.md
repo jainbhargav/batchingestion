@@ -14,7 +14,7 @@ Here we are running main class Ingest.java with arguments
 
   2. changes.json in src/main/resources folder
 
-3. output.json (User defined name)
+3. output.json (new file will be created in root folder with this name)
 
 ## How to scale this application when input file is large
 
@@ -27,4 +27,4 @@ When changes file is really large, we can deserialize `input` file and build obj
 
 ## How to scale this application when input and changes file is large
 
-When both input file and changes file are really large and none of these could be loaded in memory, we have to divide both files into smaller chunks streaming these files and repeat modifying data of all chunks of mixtape.json for all chunk of changes.json.
+When both input file and changes file are really large and none of these could be loaded in memory, we have to divide both files into smaller chunks streaming these files and repeat modifying data of all chunks of mixtape.json for all chunks of changes.json.
