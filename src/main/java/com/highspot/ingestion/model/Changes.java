@@ -4,6 +4,14 @@ package com.highspot.ingestion.model;
 import com.fasterxml.jackson.annotation.JsonGetter;
 import java.util.List;
 
+/*
+This model is used to store deserizlized changes file into Java Objects.
+It supports three operations:
+1) Add new playlist
+2)Remove playlist
+3)Modify existing playlist
+ */
+
 public class Changes {
 
   private List<Playlist> addPlaylists;
