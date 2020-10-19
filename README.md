@@ -1,7 +1,11 @@
 # How to run this project?
 
 ## Compile
-```mvn compile```
+```
+git clone git@github.com:jainbhargav/batchingestion.git
+cd batchingestion
+mvn compile
+```
 
 
 
@@ -10,9 +14,9 @@
 
 Here we are running main class Ingest.java with arguments
 
-1. mixtape.json in src/main/resources folder
+1. mixtape.json. path = src/main/resources folder
 
-  2. changes.json in src/main/resources folder
+  2. changes.json. path = src/main/resources folder
 
 3. output.json (new file will be created in root folder with this name)
 
